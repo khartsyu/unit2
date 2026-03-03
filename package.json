@@ -1,0 +1,25 @@
+{
+  "name": "unit1",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "[![CI](https://github.com/khartsyu/unit1/actions/workflows/ci.yml/badge.svg)](https://github.com/khartsyu/unit1/actions/workflows/ci.yml)",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@eslint/js": "^10.0.1",
+    "babel-jest": "^30.2.0",
+    "core-js": "3.22",
+    "eslint": "^10.0.2",
+    "globals": "^17.3.0",
+    "jest": "^30.2.0",
+    "typescript-eslint": "^8.56.1"
+  }
+}
