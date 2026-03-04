@@ -4,7 +4,9 @@
   "main": ".eslintrc.js",
   "type": "module",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +20,7 @@
     "babel-jest": "^30.2.0",
     "core-js": "3.22",
     "eslint": "^10.0.2",
-    "globals": "^17.3.0",
+    "globals": "^17.4.0",
     "jest": "^30.2.0",
     "typescript-eslint": "^8.56.1"
   }
